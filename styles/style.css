@@ -43,6 +43,12 @@ h1, p {
   box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 620px) {
+  .faq-container {
+    margin: 20px;
+  }
+}
+
 .faq-heading {
   display: flex;
   gap: 20px;
@@ -81,3 +87,4 @@ h1, p {
 .active {
   margin-top: 1.5rem;
 }
+
